@@ -1,0 +1,19 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #e3f2fd; /* Color de fondo suave y agradable */
+    color: #002bff; /* El color del texto */
+}
+
+h1 {
+    color: #ff0000; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Arial, Helvetica, sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    padding: 10px; /* Espaciado interno para la cabecera */
+}
+
+h2 {
+    color: #000000; /* El color de los subtítulos */
+    font-size: 20px; /* El tamaño de la fuente de los subtítulos */
+    font-family: Arial, Helvetica, sans-serif; /* Familia tipográfica de los subtítulos */
+}
