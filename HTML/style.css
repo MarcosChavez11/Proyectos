@@ -3,11 +3,6 @@ body {
     font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
     background-color: #e3f2fd; /* Color de fondo suave y agradable */
     color: #002bff; /* El color del texto */
-}
-
-h1 {
-    color: #ff0000; /* El color de la cabecera */
-    font-size: 24px; /* El tamaño de la fuente de la cabecera */
     font-family: Arial, Helvetica, sans-serif; /* La familia tipográfica utilizada en la cabecera */
     padding: 10px; /* Espaciado interno para la cabecera */
 }
@@ -16,4 +11,62 @@ h2 {
     color: #000000; /* El color de los subtítulos */
     font-size: 20px; /* El tamaño de la fuente de los subtítulos */
     font-family: Arial, Helvetica, sans-serif; /* Familia tipográfica de los subtítulos */
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+        background-color: yellow;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-weight: 100;
+    }
+    20% {
+        color: blue;
+        background-color: white;
+        font-family: "Courier New", monospace;
+        font-weight: 300;
+    }
+    40% {
+        color: green;
+        background-color: black;
+        font-family: "Impact", fantasy;
+        font-weight: 500;
+    }
+    60% {
+        color: purple;
+        background-color: orange;
+        font-family: "Arial Black", sans-serif;
+        font-weight: 700;
+    }
+    80% {
+        color: cyan;
+        background-color: pink;
+        font-family: "Times New Roman", serif;
+        font-weight: 900;
+    }
+    100% {
+        color: red;
+        background-color: yellow;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-weight: 100;
+    }
+}
+
+h1 {
+    animation: color-change 30s infinite;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
+}
+h2 {
+    animation: color-change 30s infinite;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
+}
+body {
+    animation: color-change 30s infinite;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
 }
